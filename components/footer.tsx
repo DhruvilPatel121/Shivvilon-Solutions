@@ -13,8 +13,8 @@ export default function Footer() {
 
   const company = [
     { name: "About Us", href: "/about" },
-    { name: "Our Team", href: "/team" },
-    { name: "Portfolio", href: "/portfolio" },
+    // { name: "Our Team", href: "/team" },
+    // { name: "Portfolio", href: "/portfolio" },
     { name: "Process", href: "/process" },
     { name: "Contact", href: "/contact" },
   ]
@@ -96,7 +96,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-blue-400 flex-shrink-0" />
-                <span className="text-gray-300 text-sm">+1 (555) 123-4567</span>
+                <span className="text-gray-300 text-sm">+91 8320742659</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-blue-400 flex-shrink-0" />

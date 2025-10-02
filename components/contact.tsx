@@ -48,8 +48,8 @@ export default function Contact() {
       icon: Phone,
       title: "Call Us",
       description: "Speak with our team",
-      value: "+1 (555) 123-4567",
-      action: "tel:+15551234567",
+      value: "+918320742659",
+      action: "tel:+918320742659",
       color: "from-green-500 to-teal-500",
     },
     {
@@ -133,14 +133,14 @@ export default function Contact() {
                   <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Expert Team</h4>
-                    <p className="text-gray-600 text-sm">50+ specialists in AI, development, and design</p>
+                    <p className="text-gray-600 text-sm">10+ specialists in AI, development, and design</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Proven Results</h4>
-                    <p className="text-gray-600 text-sm">200+ successful projects with 99% satisfaction</p>
+                    <p className="text-gray-600 text-sm">20+ successful projects with 99% satisfaction</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -181,13 +181,13 @@ export default function Contact() {
               </div>
               <div className="space-y-2 text-sm text-gray-600">
                 <p>
-                  <strong>Headquarters:</strong> San Francisco, CA
+                  <strong>Headquarters:</strong> Rajkot, Gujarat, India
                 </p>
                 <p>
-                  <strong>Development Centers:</strong> Austin, TX | Toronto, CA
+                  <strong>Development Centers:</strong> Rajkot, IND | Ahmedabad, IND
                 </p>
                 <p>
-                  <strong>Serving:</strong> 15+ countries worldwide
+                  <strong>Serving:</strong> 5+ countries worldwide
                 </p>
               </div>
             </div>
@@ -249,7 +249,7 @@ export default function Contact() {
                   />
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4"> */}
                   <div>
                     <label htmlFor="projectType" className="block text-sm font-medium text-gray-700 mb-2">
                       Project Type *
@@ -270,7 +270,7 @@ export default function Contact() {
                       ))}
                     </select>
                   </div>
-                  <div>
+                  {/* <div>
                     <label htmlFor="budget" className="block text-sm font-medium text-gray-700 mb-2">
                       Budget Range
                     </label>
@@ -307,8 +307,8 @@ export default function Contact() {
                         </option>
                       ))}
                     </select>
-                  </div>
-                </div>
+                  </div> */}
+                {/* </div> */}
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">

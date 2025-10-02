@@ -145,7 +145,7 @@ export default function HowWeWork() {
         </div>
 
         {/* Timeline */}
-        <div className="bg-white rounded-2xl p-8 shadow-lg">
+        {/* <div className="bg-white rounded-2xl p-8 shadow-lg">
           <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">Typical Project Timeline</h3>
           <div className="grid md:grid-cols-4 gap-6">
             <div className="text-center">
@@ -177,7 +177,7 @@ export default function HowWeWork() {
               <p className="text-sm text-gray-600">Deployment</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

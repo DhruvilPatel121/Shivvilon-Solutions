@@ -2,10 +2,10 @@ import { CheckCircle, Users, Award, Target, Globe, Zap, Brain, Shield } from "lu
 
 export default function About() {
   const stats = [
-    { icon: Users, label: "Expert Team Members", value: "50+", color: "text-blue-600" },
-    { icon: Award, label: "Industry Awards", value: "25", color: "text-purple-600" },
+    { icon: Users, label: "Expert Team Members", value: "10+", color: "text-blue-600" },
+    { icon: Award, label: "Industry Awards", value: "2", color: "text-purple-600" },
     { icon: Target, label: "Project Success Rate", value: "99%", color: "text-green-600" },
-    { icon: Globe, label: "Countries Served", value: "15+", color: "text-orange-600" },
+    { icon: Globe, label: "Countries Served", value: "5+", color: "text-orange-600" },
   ]
 
   const values = [
@@ -90,7 +90,7 @@ export default function About() {
                 className="rounded-2xl shadow-2xl"
               />
               <div className="absolute -bottom-6 -right-6 bg-gradient-to-r from-blue-600 to-purple-600 text-white p-4 rounded-xl shadow-lg">
-                <div className="text-2xl font-bold">200+</div>
+                <div className="text-2xl font-bold">20+</div>
                 <div className="text-sm opacity-90">Projects Delivered</div>
               </div>
             </div>

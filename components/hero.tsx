@@ -44,7 +44,7 @@ export default function Hero() {
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4">
+            {/* <div className="flex flex-col sm:flex-row gap-4">
               <Button
                 asChild
                 size="lg"
@@ -62,16 +62,16 @@ export default function Hero() {
                   View Our Work
                 </Link>
               </Button>
-            </div>
+            </div> */}
 
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-200">
               <div className="text-center">
-                <div className="text-2xl sm:text-3xl font-bold text-gray-900">200+</div>
+                <div className="text-2xl sm:text-3xl font-bold text-gray-900">20+</div>
                 <div className="text-sm text-gray-600">Projects Delivered</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl sm:text-3xl font-bold text-gray-900">50+</div>
+                <div className="text-2xl sm:text-3xl font-bold text-gray-900">10+</div>
                 <div className="text-sm text-gray-600">Expert Team</div>
               </div>
               <div className="text-center">
